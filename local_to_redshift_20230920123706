@@ -1,0 +1,13 @@
+INFO:root:File Uploaded Successfully
+ERROR:root:connection to server at "default-workgroup.315389558891.ap-south-1.redshift-serverless.amazonaws.com" (35.154.203.71), port 5439 failed: FATAL:  password authentication failed for user "admin"
+connection to server at "default-workgroup.315389558891.ap-south-1.redshift-serverless.amazonaws.com" (35.154.203.71), port 5439 failed: FATAL:  password authentication failed for user "admin"
+Traceback (most recent call last):
+  File "C:\Users\Abhishek\AppData\Local\Temp\ipykernel_19680\1776400810.py", line 2, in <module>
+    con = psycopg2.connect(
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abhishek\AppData\Local\Programs\Python\Python311\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "default-workgroup.315389558891.ap-south-1.redshift-serverless.amazonaws.com" (35.154.203.71), port 5439 failed: FATAL:  password authentication failed for user "admin"
+connection to server at "default-workgroup.315389558891.ap-south-1.redshift-serverless.amazonaws.com" (35.154.203.71), port 5439 failed: FATAL:  password authentication failed for user "admin"
+
